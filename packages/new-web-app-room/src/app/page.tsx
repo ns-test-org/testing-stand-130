@@ -32,7 +32,7 @@ export default function TodoApp() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-500 via-pink-500 to-red-500 flex items-center justify-center p-4">
       <div className="bg-white rounded-2xl shadow-2xl w-full max-w-md p-8">
-        <h1 className="text-4xl font-bold text-gray-800 mb-8 text-center">My Todos</h1>
+        <h1 className="text-4xl font-bold text-gray-800 mb-8 text-center">My Todos v2</h1>
         
         <div className="flex gap-2 mb-6">
           <input
@@ -93,4 +93,5 @@ export default function TodoApp() {
     </div>
   );
 }
+
 
